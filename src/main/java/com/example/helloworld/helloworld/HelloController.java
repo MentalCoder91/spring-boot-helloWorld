@@ -13,4 +13,10 @@ public class HelloController {
 
         return "HelloWorld";
     }
+
+
+    @GetMapping("/commit")
+    public String firstCommit(){
+        return "This is the first Commit";
+    }
 }
