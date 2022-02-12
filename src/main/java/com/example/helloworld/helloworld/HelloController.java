@@ -21,7 +21,7 @@ public class HelloController {
     }
 
 
-    @GetMapping("/commit-1")
+    @GetMapping("/commit1")
     public String secondCommit(){
         return "This is the second Commit";
     }
