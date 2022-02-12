@@ -19,4 +19,12 @@ public class HelloController {
     public String firstCommit(){
         return "This is the first Commit";
     }
+
+
+    @GetMapping("/commit-1")
+    public String secondCommit(){
+        return "This is the second Commit";
+    }
+
+
 }
