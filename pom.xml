@@ -49,6 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>springboot-hello-docker</finalName>
 	</build>
 
 </project>
